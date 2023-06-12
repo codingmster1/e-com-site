@@ -94,3 +94,22 @@ header
     display: flex;
     flex-direction: column;
 }
+
+h1 
+{
+    font-size: 56px;
+    color:rgb(212, 146, 21);
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+h2 
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h3 
+{
+    text-align: center;
+}
