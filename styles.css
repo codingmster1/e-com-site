@@ -12,6 +12,11 @@ nav
     display: flex;
 }
 
+img 
+{
+    width: 100%;
+}
+
 .nav__container
 {
     align-items: center;
@@ -21,6 +26,11 @@ nav
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 24px;
+}
+
+.orange 
+{
+    color: rgb(212, 146, 21);
 }
 
 .logo 
@@ -43,7 +53,7 @@ li
     margin-left: 16px;
     text-decoration: none;
     font-size: 20px;
-    color: rgb(151, 104, 16);
+    color: rgb(212, 146, 21);
     font-weight: bold;
     padding: 8px;
 
@@ -56,7 +66,7 @@ li
 
 .nav__link--primary
 {
-    border: 2px solid rgb(151, 104, 16);
+    border: 2px solid rgb(212, 146, 21);
     border-radius: 4px;
 }
 
@@ -67,5 +77,20 @@ li
 
 #landing 
 {
-    background-color:rgb(240, 202, 133);
+    background-color:rgb(245, 238, 225);
+}
+
+header 
+{
+    height: calc(100vh - 80px);
+}
+
+.header__container 
+{
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
