@@ -267,6 +267,11 @@ button:active
     background-color: rgba(245, 238, 225);
 }
 
+.books 
+{
+    display: flex;
+}
+
 .book__img 
 {
     max-height: 380px;
