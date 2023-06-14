@@ -6,6 +6,11 @@
     font-family: 'Playfair', serif;
 }
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
 body 
 {
     max-width: 100vw;
