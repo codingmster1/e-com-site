@@ -28,6 +28,11 @@ a
     text-decoration: none;
 }
 
+a:hover 
+{
+    text-decoration: underline;
+}
+
 img 
 {
    
@@ -357,7 +362,7 @@ button:active
 
 footer 
 {
-    background-color: rgb(238, 186, 89);
+    background-color: rgb(238, 177, 65);
 }
 
 .footer__logo--img 
