@@ -18,6 +18,16 @@ nav
     display: flex;
 }
 
+p 
+{
+    line-height: 1.5;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
 img 
 {
    
@@ -188,6 +198,10 @@ button:active
 
 }
 
+.no-cursor
+{
+    cursor: not-allowed;
+}
 /* Highlights */
 
 #highlights 
@@ -337,4 +351,38 @@ button:active
 #explore 
 {
     background-color:rgb(245, 238, 225);
+}
+
+/* Footer */
+
+footer 
+{
+    background-color: rgb(238, 186, 89);
+}
+
+.footer__logo--img 
+{
+    width: 160px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer__link,
+.footer__copyright 
+{
+    color: #fff;
+}
+
+.footer__list 
+{
+    margin: 20px 0 24px 0;
+}
+
+.footer__link 
+{
+padding: 0 8px;
+}
+
+.footer__logo 
+{
+    display: flex;
 }
