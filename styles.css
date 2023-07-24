@@ -470,6 +470,19 @@ padding: 0 8px;
     display: flex;
 }
 
+
+
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 /* Small Phones, tablets, large smartphones */
 
 @media (max-width: 768px) 
