@@ -470,9 +470,6 @@ padding: 0 8px;
     display: flex;
 }
 
-
-
-  
   @keyframes rotate {
     0% {
       transform: rotate(0);
